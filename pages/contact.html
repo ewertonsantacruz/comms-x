@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Template</title>
+  <title>Contact</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -33,15 +33,8 @@
             <a class="nav-link" href="../pages/about.html">About us</a>
           </li>
           
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Solutions</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="../pages/solutions.html">Network</a>
-              <a class="dropdown-item" href="../pages/solutions.html">Business Solutions</a>
-              <a class="dropdown-item" href="../pages/solutions.html">Something else here</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Separated link</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/solutions.html">Solutions</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../pages/contact.html">Contact</a>
@@ -54,14 +47,69 @@
       </div>
     </div>
   </nav>
+  <!--contact form-->
+  <div class="contact-form">
+    
+    
+  <form>
+    
+    <fieldset>
+    <div class="form-group">
+      <h1>Contact Form</h1>
+      <label for="firstname" class="form-label mt-4"><input type="text" class="form-control" id="firstname" aria-describedby="firstname" placeholder="First name" data-slug-id="email-address" data-category="user-data"></label>
+      
+      <label for="lastname" class="form-label mt-4"><input type="text" class="form-control" id="lastname" aria-describedby="lastname" placeholder="Last name" data-slug-id="lastname" data-category="user-data"></label>
+      
+      <label for="phone" class="form-label mt-4"><input type="text" class="form-control" id="phone" aria-describedby="phone" placeholder="Phone" data-slug-id="lastname" data-category="user-data"></label>
+      
+      <label for="exampleInputEmail1" class="form-label mt-4"><input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" data-slug-id="email-address" data-category="user-data"></label>
+      <h1>Request</h1>
+      
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      <button type="submit" class="btn btn-primary">Submit</button>
+  </fieldset>
+
+  </form> 
+  </div>
+</div><!--enf of contact form-->
 
 
 
   
 
 
-<footer class="container-fluid text-center">
-  <p>Footer Text</p>
+<!-- FOOTER -->
+<footer class="w-100 py-4 flex-shrink-0">
+  <div class="container py-4">
+      <div class="row gy-4 gx-5">
+        
+          <div class="col-lg-2 col-md-6">
+              <h5 class="text-white mb-3">Quick links</h5>
+              <ul class="list-unstyled text-muted">
+                  <li><a href="../index.html" >Home</a></li>
+                  <li><a href="../pages/about.html" >About us</a></li>
+                  <li><a href="../pages/solutions.html" >Solutions</a></li>
+                  <li><a href="../pages/contact.html" >Contact</a></li>
+              </ul>
+          </div>
+          
+          <div class="col-lg-4 col-md-6">
+              <h5 class="text-white mb-3">Newsletter</h5>
+              <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+              <form action="#">
+                  <div class="input-group mb-3">
+                      <input class="form-control" type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                      <button class="btn btn-primary" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i></button>
+                  </div>
+                  
+              </form>
+              
+          </div>
+      </div>
+  </div>
+  
+      
+  
 </footer>
 
 </body>

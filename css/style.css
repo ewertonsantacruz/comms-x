@@ -25,7 +25,123 @@ footer {
 .carousel-caption {
   display: none; 
 }
+
+
+
 }
 .nav-item{
   margin-right: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins|Ubuntu&display=swap');
+.box {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.our-services {
+  margin-top: 75px;
+  padding-bottom: 30px;
+  padding: 0 60px;
+  min-height: 198px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: all .4s ease-in-out;
+  box-shadow: 0 0 25px 0 rgba(20, 27, 202, .17);
+}
+
+.our-services .icon {
+  margin-bottom: -21px;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.our-services:hover h4,
+.our-services:hover p {
+  color: #fff;
+}
+
+.speedup:hover {
+  box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+  cursor: pointer;
+  background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%);
+}
+
+.settings:hover {
+  box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+  cursor: pointer;
+  background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%);
+}
+
+.privacy:hover {
+  box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+  cursor: pointer;
+  background-image: linear-gradient(-45deg, #3615e7 0%, #44a2f6 100%);
+}
+
+.backups:hover {
+  box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+  cursor: pointer;
+  background-image: linear-gradient(-45deg, #fc6a0e 0%, #fdb642 100%);
+}
+
+.ssl:hover {
+  box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+  cursor: pointer;
+  background-image: linear-gradient(-45deg, #8d40fb 0%, #5a57fb 100%);
+}
+
+.database:hover {
+  box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+  cursor: pointer;
+  background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%);
+}
+/* end of our services */
+
+/*contact form*/
+.contact-form{
+  width: 30%;
+}
+.form-group{
+  width: 100%; 
+  float: left;
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 20px;
+  margin-left: 50px;
+  background-color: #141414;
+
+}
+.form-group h1{
+  color: white;
+}
+.form-group input{
+  width: 170px;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-left: 10px;
+  padding: 5px;
+  float: left;
+  font-size: 16px;
+  
+}
+.form-group textarea{
+  width: 90%;
+  height: 160px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  font-size: 16px;
+}
+.form-group button{
+  float: right;
+  width: 60px;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+
 }

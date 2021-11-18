@@ -7,18 +7,19 @@
     <title>Comms-x</title>
     <!--carrosel-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!--Font C of the comms-x-->
+    <link href="https://fonts.googleapis.com/css2?family=Marvel:ital,wght@1,700&family=Monoton&display=swap" rel="stylesheet">
+    <!--Our Services-->   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Marvel:ital,wght@1,700&family=Monoton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>   
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    
-    
+    <link rel="stylesheet" href="css/bootstrap.min.css">   
   </head>
   <body>
-  
+    
+        
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin-bottom: 0; border-radius: 0;">
       <div class="container-fluid" style="margin-top: 30px; font-size: 18px; margin-left: 25px;">
         <a class="navbar-brand" href="index.html" style="font-size: 35px;"><span style="color: rgb(78, 78, 189); font-family: 'Monoton', cursive; font-size: 55px ;">C</span>omms-x</a>
@@ -37,15 +38,8 @@
               <a class="nav-link" href="pages/about.html">About us</a>
             </li>
             
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Solutions</a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="pages/solutions.html">Network</a>
-                <a class="dropdown-item" href="pages/solutions.html">Business Solutions</a>
-                <a class="dropdown-item" href="pages/solutions.html">Something else here</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Separated link</a>
-              </div>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/solutions.html">Solutions</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="pages/contact.html">Contact</a>
@@ -71,16 +65,16 @@
         <div class="item active">
           <img src="images/business-connectivity.jpg" alt="cooper">
           <div class="carousel-caption">
-            <h3>We connect your business to the customer</h3>
-            <p>Money Money.</p>
+            <h3 style="font-size: 36px;">Reliable Connections</h3>
+            <p style="font-size: 24px;">Avoid constly maintenace</p>
           </div>      
         </div>
   
         <div class="item">
           <img src="images/smart-home.jpg" alt="Image">
           <div class="carousel-caption">
-            <h3>and the customer to your business</h3>
-            <p>Lorem ipsum...</p>
+            <h3 style="font-size: 36px;">at your home or business</h3>
+            <p style="font-size: 24px;">we can connect you</p>
           </div>      
         </div>
         
@@ -96,33 +90,56 @@
         <span class="sr-only">Next</span>
       </a>
   </div> <!--end of carousel-->
+
+  <div class="container-fluid mb-5" > <!--our services -->
+    <div class="text-center mt-5">
+        <h1>Our Services</h1>
+    </div>
+    <div class="row" style="margin-bottom: 45px; margin-right: 20px;">
+        <div class="col-md-4">
+            <div class="box">
+                <div class="our-services settings">
+                    <div class="icon"> <img src="images/structural-cabling-icon.png"> </div>
+                    <h4>Structural Cabling</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box">
+              <div class="our-services settings">
+                  <div class="icon"> <img src="images/cctv-icon.png"> </div>
+                  <h4>Surveillance</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+        <div class="box">
+            <div class="our-services settings">
+                <div class="icon"> <img src="images/av-icon.png"> </div>
+                <h4>AV Installing</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+        </div>
+    </div>
+    
+</div> <!-- end of our services -->
   <!-- FOOTER -->
   <footer class="w-100 py-4 flex-shrink-0">
     <div class="container py-4">
         <div class="row gy-4 gx-5">
-            <div class="col-lg-4 col-md-6">
-                <h5 class="h1 text-white">FB.</h5>
-                <p class="small text-muted" style="color: black;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                <p class="small text-muted mb-0" style="color: black;">&copy; Copyrights. All rights reserved. <a class="text-primary" href="#">Bootstrapious.com</a></p>
-            </div>
+          
             <div class="col-lg-2 col-md-6">
                 <h5 class="text-white mb-3">Quick links</h5>
                 <ul class="list-unstyled text-muted">
-                    <li><a href="#" >Home</a></li>
-                    <li><a href="#" >About</a></li>
-                    <li><a href="#" >Get started</a></li>
-                    <li><a href="#" >FAQ</a></li>
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="pages/about.html" >About us</a></li>
+                    <li><a href="pages/solutions.html" >Solutions</a></li>
+                    <li><a href="pages/contact.html" >Contact</a></li>
                 </ul>
             </div>
-            <div class="col-lg-2 col-md-6">
-                <h5 class="text-white mb-3">Quick links</h5>
-                <ul class="list-unstyled text-muted">
-                    <li><a href="#" >Home</a></li>
-                    <li><a href="#" >About</a></li>
-                    <li><a href="#" >Get started</a></li>
-                    <li><a href="#" >FAQ</a></li>
-                </ul>
-            </div>
+            
             <div class="col-lg-4 col-md-6">
                 <h5 class="text-white mb-3">Newsletter</h5>
                 <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
@@ -131,10 +148,15 @@
                         <input class="form-control" type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
                         <button class="btn btn-primary" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i></button>
                     </div>
+                    
                 </form>
+                
             </div>
         </div>
     </div>
+    
+        
+    
 </footer>
 </body>
 </html>
